@@ -104,10 +104,10 @@ public class Node
     {
         NULL.label = "null";
     }
-    public String word;
-    public String compiledWord;
-    public String label;
-    public int id;
+    public String word;             // 原词
+    public String compiledWord;     // 原词重新编译后的词
+    public String label;            // 词性flag（转化后）
+    public int id;                  // 节点ID
 
     public Node(Term term, int id)
     {

@@ -18,10 +18,10 @@ package com.hankcs.hanlp.dependency.common;
  */
 public class Edge
 {
-    public int from;
-    public int to;
+    public int from;        // 起点ID
+    public int to;          // 终点ID
     public float cost;
-    public String label;
+    public String label;    // 边label
 
     public Edge(int from, int to, String label, float cost)
     {
